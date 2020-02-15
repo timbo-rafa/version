@@ -1,0 +1,8 @@
+.noseids
+nosetests.xml
+.vscode
+**/__pycache__
+build
+dist
+*.pyc
+*.egg-info
