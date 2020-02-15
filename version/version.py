@@ -18,7 +18,7 @@ class Version:
         self.candidate_number = int(m.group(5)) if m.group(5) != None else 0
 
     def __repr__(self):
-        return 'Version("{str}")'.format(str=self.__str__())
+        return '{cls}("{str}")'.format(cls=self.__class__.__name__, str=self.__str__())
 
     def __str__(self):
         return "v{major}.{minor}.{patch}{release}".format(
