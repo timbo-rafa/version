@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="version",
+    name="rtimbo-version",
     version="1.0.0",
     author="Rafael",
     author_email="timbo.rafa@gmail.com",
